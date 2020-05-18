@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name HERO_nonStandardComponents)(type Legacy)(uri ${KIPRJMOD}/HERO_nonStandardComponents.lib)(options "")(descr ""))
+  (lib (name logo)(type Legacy)(uri ${KIPRJMOD}/HERO_nonStandardComponents.pretty/logo.lib)(options "")(descr ""))
+)

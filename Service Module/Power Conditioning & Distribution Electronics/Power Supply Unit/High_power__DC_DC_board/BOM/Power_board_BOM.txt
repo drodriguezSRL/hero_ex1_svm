@@ -1,0 +1,40 @@
+#############################################
+#   Bill of materials for Power Board PCB   #
+#############################################
+
+Prices are took from Mouser.jp website
+
+#############################################
+
+Name            Description     Reference           nb      price(¥)    unit_price(¥)
+
+Buck converter:
+U05,U15         ADJ converter   TPS54560BDDA        x2      1367,8      683.9
+
+Passive components:
+Cboot           0.1u/50V C      885012206095        x2      23.4        11.7
+Cc01            27n/25V C       CC0603KRX7R8BB273   x1      14          14
+Cc02            680p/25V C      885012206058        x1      11.7        11.7
+Cc11            18n/25V C       CC0603KRX7R8BB183   x1      14          14
+Cc12            1n/25V C        CC0603KRX7R8BB102   x1      11.7        11.7
+Cin             10u/50V C       GRM32ER71H106MA12L  x4      447,2       111.8
+Cout01,Cout11   47u/50V CP      T495X476K035ATE230  x2      549,8       274.9
+Cout02,Cout12   100n/50V C      885012207098        x2      23.4        11.7
+D01,D02         Shottky D       NRVTSS5100ET3G      x2      109,6       54.8
+L01             47u/3A L        177CDMCCDS-470MC    x1      454.4       454.4
+L11             22u/3A L        125CDMCCDS-220MC    x1      210.9       210.9
+Rc01            0603 6.8k R     CRCW06036K80FKEA    x1      11.7        11.7
+Rc11            0603 4.42k R    CRCW06034K42FKEA    x1      11.7        11.7
+Rhs01           0603 46.4k R    CRCW060346K4FKEA    x1      11.7        11.7
+Rhs11           0603 17.4k R    CRCW060317K4FKEA    x1      11.7        11.7
+Rls01,Rls11     0603 3.3k R     CRCW06033K30FKEA    x2      23.4        11.7
+RT01,RT11       0603 243k R     CRCW0603243KFKEA    x2      23.4        11.7
+Ruv01,Ruv11     0603 294k R     CRCW0603294KFKEA    x2      23.4        11.7
+Ruv02,Ruv12     0603 12.1k R    CRCW060312K1FKEA    x2      23.4        11.7
+
+Connectors :
+JXX             Molex conn      172448-0004         x7      611,8       87.4
+
+#############################################
+
+Total components price (per board): 3990,1¥

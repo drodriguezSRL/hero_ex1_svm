@@ -1,0 +1,18 @@
+Circuit: * C:\users\mephiro\Mes documents\Japan_internship\PCB\EX1_Hero\High_power_DC_DC_buck_boost_converter\Simulation\Draft1.asc
+
+
+Date: Sun Sep 29 09:55:41 2019
+Total elapsed time: 0.102 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 0
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 4
+fillins = 0
+solver = Normal
+

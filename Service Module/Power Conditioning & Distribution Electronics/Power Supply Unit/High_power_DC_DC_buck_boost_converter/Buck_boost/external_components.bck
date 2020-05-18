@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT8390
+F https://www.analog.com/media/en/technical-documentation/data-sheets/8390fa.pdf
+$ENDCMP
+#
+#End Doc Library

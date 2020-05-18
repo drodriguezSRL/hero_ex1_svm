@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name High_power__DC_DC_board)(type KiCad)(uri ${KIPRJMOD}/High_power__DC_DC_board.pretty)(options "")(descr ""))
+)

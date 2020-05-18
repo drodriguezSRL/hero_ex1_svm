@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name HERO_nonStandardComponents)(type KiCad)(uri ${KIPRJMOD}/HERO_nonStandardComponents.pretty)(options "")(descr ""))
+  (lib (name Connectors_JST)(type KiCad)(uri D:/00_Documents/3_Elec/KiCad/PersonalLibrairies/Connectors_JST.pretty)(options "")(descr ""))
+)

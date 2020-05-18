@@ -1,0 +1,17 @@
+###########################################
+#   Bill of materials for Filter Design   #
+###########################################
+
+Prices are took from Mouser.jp website
+
+#############################################
+
+    Description         Reference           nb      price(¥)    unit_price(¥)
+
+    10u L IDC>7.5A      744373965100        2       654,8       327.4
+    10u L IDC>3.5A      PA4341.103ANLT      2       244.6       122.3
+    1210 470n / 50V C   C1210C474K5RACTU    8       252         31.5 
+
+#############################################
+
+Total components price (per board): 1151,4¥

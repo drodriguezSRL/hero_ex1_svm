@@ -1,0 +1,40 @@
+#########################################
+#   Bill of materials for DC converter  #
+#########################################
+
+Prices are took from Mouser.jp website
+
+#############################################
+
+Name            Description     Reference           nb      unit_price(¥)       price(¥)
+
+controller:
+U11             buck-boost      LT8390EFE#PBF       1       1277.8              1277.8
+
+transistor:
+Q21,Q22,Q23,Q24 Power MOS       NTD5C668NLT4G       4       188.4               753.6
+
+passive component:
+C34,C35,C36     Low ESR cap     EEETG1H470P         3       108.9               326.7
+C01,C02,C03     Low ESR cap     EEETG1H100P         3       88.5                265.5
+C31,C32,C33     Ceramic cap     GCM32EL8EH106KA07L  3       144.1               432.3
+C04,C05         Ceramic cap     C1206C475M5RACAUTO  2       77.2                154.4
+C21,C22         Ceramic cap     C0805X104K1RAC3316  2       49.9                99.8
+C11,C17         Ceramic cap     CC0805KFX7R9BB105   2       29.5                59
+C12             Ceramic cap     CC1206KKX5R9BB475   1       81.7                81.7
+C13             Ceramic cap     CC0603KRX5R9BB474   1       67                  67
+C14             Ceramic cap     CC0603JPX7R9BB104   1       14.8                14.8
+C15             Ceramic cap     CC0603GPNPO9BN101   1       14.8                14.8
+C16             Ceramic cap     CC0603KRX7R9BB472   1       11.3                11.3
+R01             0603 R 124      CRCW0603120KFKEAC   1       19.3                19.3
+R02             0603 R 512      CRCW060351K0FKEAC   1       18.2                18.2
+R11,R12         0603 R 104      CRCW0603100KFKEAC   2       11.3                22.6
+R13             0603 R 273      CRCW060327K0JNEAC   1       11.3                11.3
+R32             0603 R 104      CRCW0603100KFKEAC   1       11.3                11.3
+R33             0603 R 432      CRCW06034K30FKEA    1       11.3                11.3
+R21             11m R shunt     RLP73V3AR011FTDF    1       85.1                85.1
+R31             13m R shunt     RLP73V3AR013FTDF    1       85.1                85.1
+L21             Power inductor  PA4344.333ANLT      1       514.1               514.1
+
+
+                                                                        Total : 4401,7

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name High_power_DC_DC_converter)(type KiCad)(uri /home/mephiro/Documents/Japan_internship/PCB/EX1_Hero/High_power_DC_DC_SEPIC_converter/High_power_DC_DC_converter.pretty)(options "")(descr ""))
+)

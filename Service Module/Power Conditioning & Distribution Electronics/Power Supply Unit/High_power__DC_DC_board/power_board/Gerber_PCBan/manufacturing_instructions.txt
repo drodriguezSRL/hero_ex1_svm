@@ -1,0 +1,19 @@
+High_power__DC_DC_board-F_Cu.gtl（部品面パターン）
+
+High_power__DC_DC_board-B_Cu.gbl（半田面パターン）
+
+High_power__DC_DC_board-F_Mask.gts（部品面パターン）
+
+High_power__DC_DC_board-B_Mask.gbs（半田面パターン）
+
+High_power__DC_DC_board-F_SilkS.gto（部品面パターン）
+
+High_power__DC_DC_board-B_SilkS.gbo（半田面パターン）
+
+High_power__DC_DC_board-Edge_Cuts.gm1　（基板外形）
+
+High_power__DC_DC_board.drl （ドリルデータ）
+
+High_power__DC_DC_board-drl_map.gbr（ドリルマップ）
+
+High_power__DC_DC_board-drl.rpt (ドリルリスト）

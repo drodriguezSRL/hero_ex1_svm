@@ -1,0 +1,19 @@
+Buck-boost-F_Cu.gtl（部品面パターン）
+
+Buck-boost-B_Cu.gbl（半田面パターン）
+
+Buck-boost-F_Mask.gts（部品面パターン）
+
+Buck-boost-B_Mask.gbs（半田面パターン）
+
+Buck-boost-F_SilkS.gto（部品面パターン）
+
+Buck-boost-B_SilkS.gbo（半田面パターン）
+
+Buck-boost-Edge_Cuts.gm1　（基板外形）
+
+Buck-boost.drl （ドリルデータ）
+
+Buck-boost-drl_map.gbr（ドリルマップ）
+
+Buck-boost-drl.rpt (ドリルリスト）

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name DC_converter)(type Legacy)(uri ${KIPRJMOD}/DC_converter.lib)(options "")(descr ""))
+)

@@ -1,0 +1,478 @@
+EESchema Schematic File Version 4
+LIBS:PowerDistributionUnit-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Power Distribution Unit"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x02_Female J1
+U 1 1 5DCA4A46
+P 5200 3450
+F 0 "J1" H 5228 3426 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 5228 3335 50  0000 L CNN
+F 2 "High_power__DC_DC_board:172448-0004_Molex_2channel_horizontal" H 5200 3450 50  0001 C CNN
+F 3 "~" H 5200 3450 50  0001 C CNN
+	1    5200 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J2
+U 1 1 5DCA5E15
+P 5200 3700
+F 0 "J2" H 5228 3676 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 5228 3585 50  0000 L CNN
+F 2 "High_power__DC_DC_board:172448-0004_Molex_2channel_horizontal" H 5200 3700 50  0001 C CNN
+F 3 "~" H 5200 3700 50  0001 C CNN
+	1    5200 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J3
+U 1 1 5DCA608F
+P 5200 3950
+F 0 "J3" H 5228 3926 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 5228 3835 50  0000 L CNN
+F 2 "High_power__DC_DC_board:172448-0004_Molex_2channel_horizontal" H 5200 3950 50  0001 C CNN
+F 3 "~" H 5200 3950 50  0001 C CNN
+	1    5200 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J4
+U 1 1 5DCA6E5E
+P 5200 4200
+F 0 "J4" H 5228 4176 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 5228 4085 50  0000 L CNN
+F 2 "High_power__DC_DC_board:172448-0004_Molex_2channel_horizontal" H 5200 4200 50  0001 C CNN
+F 3 "~" H 5200 4200 50  0001 C CNN
+	1    5200 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J5
+U 1 1 5DCA72FD
+P 5200 4450
+F 0 "J5" H 5228 4426 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 5228 4335 50  0000 L CNN
+F 2 "High_power__DC_DC_board:172448-0004_Molex_2channel_horizontal" H 5200 4450 50  0001 C CNN
+F 3 "~" H 5200 4450 50  0001 C CNN
+	1    5200 4450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J6
+U 1 1 5DCA77B9
+P 5200 4700
+F 0 "J6" H 5228 4676 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 5228 4585 50  0000 L CNN
+F 2 "High_power__DC_DC_board:172448-0004_Molex_2channel_horizontal" H 5200 4700 50  0001 C CNN
+F 3 "~" H 5200 4700 50  0001 C CNN
+	1    5200 4700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 3450 5750 3700
+Connection ~ 5750 4700
+Wire Wire Line
+	5750 4700 5750 4900
+Connection ~ 5750 4450
+Wire Wire Line
+	5750 4450 5750 4700
+Connection ~ 5750 4200
+Wire Wire Line
+	5750 4200 5750 4450
+Connection ~ 5750 3950
+Wire Wire Line
+	5750 3950 5750 4200
+Connection ~ 5750 3700
+Wire Wire Line
+	5750 3700 5750 3950
+$Comp
+L power:GND #PWR0101
+U 1 1 5DCA884F
+P 5750 4900
+F 0 "#PWR0101" H 5750 4650 50  0001 C CNN
+F 1 "GND" H 5755 4727 50  0000 C CNN
+F 2 "" H 5750 4900 50  0001 C CNN
+F 3 "" H 5750 4900 50  0001 C CNN
+	1    5750 4900
+	1    0    0    -1  
+$EndComp
+Text Label 5650 3550 2    50   ~ 0
+36V-1
+Text Label 5650 3800 2    50   ~ 0
+36V-2
+Text Label 5650 4050 2    50   ~ 0
+24V
+Text Label 5650 4300 2    50   ~ 0
+14V
+Text Label 5650 4800 2    50   ~ 0
+5V
+Text Label 5650 4550 2    50   ~ 0
+12V
+Wire Wire Line
+	5650 4800 5400 4800
+Wire Wire Line
+	5400 4700 5750 4700
+Wire Wire Line
+	5650 4550 5400 4550
+Wire Wire Line
+	5400 4450 5750 4450
+Wire Wire Line
+	5650 4300 5400 4300
+Wire Wire Line
+	5400 4200 5750 4200
+Wire Wire Line
+	5650 4050 5400 4050
+Wire Wire Line
+	5400 3950 5750 3950
+Wire Wire Line
+	5400 3700 5750 3700
+Wire Wire Line
+	5400 3550 5650 3550
+Wire Wire Line
+	5400 3450 5750 3450
+Wire Wire Line
+	5400 3800 5650 3800
+$Comp
+L Connector_Generic:Conn_01x10 J7
+U 1 1 5DCAD14B
+P 7050 3850
+F 0 "J7" H 6968 4467 50  0000 C CNN
+F 1 "Conn_01x10" H 6968 4376 50  0000 C CNN
+F 2 "MyConnectors:JST_VH_B10P-VH" H 7050 3850 50  0001 C CNN
+F 3 "~" H 7050 3850 50  0001 C CNN
+	1    7050 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 5DCAF26B
+P 7050 4650
+F 0 "J8" H 6968 4867 50  0000 C CNN
+F 1 "Conn_01x02" H 6968 4776 50  0000 C CNN
+F 2 "MyConnectors:JST_VH_B2P-VH" H 7050 4650 50  0001 C CNN
+F 3 "~" H 7050 4650 50  0001 C CNN
+	1    7050 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J9
+U 1 1 5DCAFB70
+P 7950 3450
+F 0 "J9" H 7868 3667 50  0000 C CNN
+F 1 "Conn_01x02" H 7868 3576 50  0000 C CNN
+F 2 "MyConnectors:JST_XA_B2B-XASK-1" H 7950 3450 50  0001 C CNN
+F 3 "~" H 7950 3450 50  0001 C CNN
+	1    7950 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J10
+U 1 1 5DCB018E
+P 7950 3850
+F 0 "J10" H 7868 4067 50  0000 C CNN
+F 1 "Conn_01x02" H 7868 3976 50  0000 C CNN
+F 2 "MyConnectors:JST_XA_B2B-XASK-1" H 7950 3850 50  0001 C CNN
+F 3 "~" H 7950 3850 50  0001 C CNN
+	1    7950 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J11
+U 1 1 5DCB1298
+P 7950 4250
+F 0 "J11" H 7868 4467 50  0000 C CNN
+F 1 "Conn_01x02" H 7868 4376 50  0000 C CNN
+F 2 "MyConnectors:JST_XA_B2B-XASK-1" H 7950 4250 50  0001 C CNN
+F 3 "~" H 7950 4250 50  0001 C CNN
+	1    7950 4250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J12
+U 1 1 5DCB1604
+P 7950 4650
+F 0 "J12" H 7868 4867 50  0000 C CNN
+F 1 "Conn_01x02" H 7868 4776 50  0000 C CNN
+F 2 "MyConnectors:JST_XA_B2B-XASK-1" H 7950 4650 50  0001 C CNN
+F 3 "~" H 7950 4650 50  0001 C CNN
+	1    7950 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J13
+U 1 1 5DCB3CA7
+P 8800 3450
+F 0 "J13" H 8718 3667 50  0000 C CNN
+F 1 "Conn_01x02" H 8718 3576 50  0000 C CNN
+F 2 "MyConnectors:JST_XA_B2B-XASK-1" H 8800 3450 50  0001 C CNN
+F 3 "~" H 8800 3450 50  0001 C CNN
+	1    8800 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J14
+U 1 1 5DCB3CAD
+P 8800 3850
+F 0 "J14" H 8718 4067 50  0000 C CNN
+F 1 "Conn_01x02" H 8718 3976 50  0000 C CNN
+F 2 "MyConnectors:JST_XA_B2B-XASK-1" H 8800 3850 50  0001 C CNN
+F 3 "~" H 8800 3850 50  0001 C CNN
+	1    8800 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J15
+U 1 1 5DCB3CB3
+P 8800 4250
+F 0 "J15" H 8718 4467 50  0000 C CNN
+F 1 "Conn_01x02" H 8718 4376 50  0000 C CNN
+F 2 "MyConnectors:JST_XA_B2B-XASK-1" H 8800 4250 50  0001 C CNN
+F 3 "~" H 8800 4250 50  0001 C CNN
+	1    8800 4250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5DCB5FCB
+P 7250 4350
+F 0 "#PWR0102" H 7250 4100 50  0001 C CNN
+F 1 "GND" V 7250 4200 50  0000 R CNN
+F 2 "" H 7250 4350 50  0001 C CNN
+F 3 "" H 7250 4350 50  0001 C CNN
+	1    7250 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5DCB6A89
+P 7250 4050
+F 0 "#PWR0103" H 7250 3800 50  0001 C CNN
+F 1 "GND" V 7250 3900 50  0000 R CNN
+F 2 "" H 7250 4050 50  0001 C CNN
+F 3 "" H 7250 4050 50  0001 C CNN
+	1    7250 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5DCB6ED3
+P 7250 3750
+F 0 "#PWR0104" H 7250 3500 50  0001 C CNN
+F 1 "GND" V 7250 3600 50  0000 R CNN
+F 2 "" H 7250 3750 50  0001 C CNN
+F 3 "" H 7250 3750 50  0001 C CNN
+	1    7250 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5DCB734B
+P 7250 3450
+F 0 "#PWR0105" H 7250 3200 50  0001 C CNN
+F 1 "GND" V 7250 3300 50  0000 R CNN
+F 2 "" H 7250 3450 50  0001 C CNN
+F 3 "" H 7250 3450 50  0001 C CNN
+	1    7250 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5DCB7667
+P 8150 3450
+F 0 "#PWR0106" H 8150 3200 50  0001 C CNN
+F 1 "GND" V 8150 3300 50  0000 R CNN
+F 2 "" H 8150 3450 50  0001 C CNN
+F 3 "" H 8150 3450 50  0001 C CNN
+	1    8150 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5DCB7BEB
+P 9000 3450
+F 0 "#PWR0107" H 9000 3200 50  0001 C CNN
+F 1 "GND" V 9000 3300 50  0000 R CNN
+F 2 "" H 9000 3450 50  0001 C CNN
+F 3 "" H 9000 3450 50  0001 C CNN
+	1    9000 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5DCB7E97
+P 9000 3850
+F 0 "#PWR0108" H 9000 3600 50  0001 C CNN
+F 1 "GND" V 9000 3700 50  0000 R CNN
+F 2 "" H 9000 3850 50  0001 C CNN
+F 3 "" H 9000 3850 50  0001 C CNN
+	1    9000 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5DCB83A2
+P 9000 4250
+F 0 "#PWR0109" H 9000 4000 50  0001 C CNN
+F 1 "GND" V 9000 4100 50  0000 R CNN
+F 2 "" H 9000 4250 50  0001 C CNN
+F 3 "" H 9000 4250 50  0001 C CNN
+	1    9000 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5DCB8919
+P 8150 3850
+F 0 "#PWR0110" H 8150 3600 50  0001 C CNN
+F 1 "GND" V 8150 3700 50  0000 R CNN
+F 2 "" H 8150 3850 50  0001 C CNN
+F 3 "" H 8150 3850 50  0001 C CNN
+	1    8150 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5DCB8D5D
+P 8150 4250
+F 0 "#PWR0111" H 8150 4000 50  0001 C CNN
+F 1 "GND" V 8150 4100 50  0000 R CNN
+F 2 "" H 8150 4250 50  0001 C CNN
+F 3 "" H 8150 4250 50  0001 C CNN
+	1    8150 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5DCB912D
+P 8150 4650
+F 0 "#PWR0112" H 8150 4400 50  0001 C CNN
+F 1 "GND" V 8150 4500 50  0000 R CNN
+F 2 "" H 8150 4650 50  0001 C CNN
+F 3 "" H 8150 4650 50  0001 C CNN
+	1    8150 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5DCB9519
+P 7250 4650
+F 0 "#PWR0113" H 7250 4400 50  0001 C CNN
+F 1 "GND" V 7250 4500 50  0000 R CNN
+F 2 "" H 7250 4650 50  0001 C CNN
+F 3 "" H 7250 4650 50  0001 C CNN
+	1    7250 4650
+	0    -1   -1   0   
+$EndComp
+Text Label 7550 3550 2    50   ~ 0
+36V-1
+Text Label 7550 4250 2    50   ~ 0
+36V-2
+Text Label 7550 3650 2    50   ~ 0
+24V
+Text Label 7550 3850 2    50   ~ 0
+12V
+Text Label 7550 3950 2    50   ~ 0
+5V
+Wire Wire Line
+	7550 3950 7250 3950
+Wire Wire Line
+	7250 3850 7550 3850
+Wire Wire Line
+	7550 3650 7250 3650
+Wire Wire Line
+	7250 3550 7550 3550
+Wire Wire Line
+	7550 4250 7250 4250
+Wire Wire Line
+	7250 4150 7550 4150
+Text Label 7550 4150 2    50   ~ 0
+24V
+Text Label 7550 4750 2    50   ~ 0
+14V
+Wire Wire Line
+	7550 4750 7250 4750
+Text Label 8450 3550 2    50   ~ 0
+12V
+Text Label 8450 3950 2    50   ~ 0
+12V
+Text Label 8450 4350 2    50   ~ 0
+12V
+Text Label 8450 4750 2    50   ~ 0
+12V
+Text Label 9300 3550 2    50   ~ 0
+5V
+Text Label 9300 3950 2    50   ~ 0
+5V
+Text Label 9300 4350 2    50   ~ 0
+5V
+Wire Wire Line
+	8450 4750 8150 4750
+Wire Wire Line
+	8150 4350 8450 4350
+Wire Wire Line
+	8450 3950 8150 3950
+Wire Wire Line
+	8150 3550 8450 3550
+Wire Wire Line
+	9300 3550 9000 3550
+Wire Wire Line
+	9000 3950 9300 3950
+Wire Wire Line
+	9300 4350 9000 4350
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5DCA9675
+P 2950 3350
+F 0 "H1" H 3050 3396 50  0000 L CNN
+F 1 "MountingHole" H 3050 3305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2950 3350 50  0001 C CNN
+F 3 "~" H 2950 3350 50  0001 C CNN
+	1    2950 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5DCA9D31
+P 2950 3550
+F 0 "H2" H 3050 3596 50  0000 L CNN
+F 1 "MountingHole" H 3050 3505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2950 3550 50  0001 C CNN
+F 3 "~" H 2950 3550 50  0001 C CNN
+	1    2950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5DCA9EAD
+P 2950 3750
+F 0 "H3" H 3050 3796 50  0000 L CNN
+F 1 "MountingHole" H 3050 3705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2950 3750 50  0001 C CNN
+F 3 "~" H 2950 3750 50  0001 C CNN
+	1    2950 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5DCAA071
+P 2950 3950
+F 0 "H4" H 3050 3996 50  0000 L CNN
+F 1 "MountingHole" H 3050 3905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2950 3950 50  0001 C CNN
+F 3 "~" H 2950 3950 50  0001 C CNN
+	1    2950 3950
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

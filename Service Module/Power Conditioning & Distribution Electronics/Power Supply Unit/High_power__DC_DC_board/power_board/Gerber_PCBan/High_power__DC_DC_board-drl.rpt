@@ -1,0 +1,27 @@
+Drill report for D:/David/Prototypes/EX1/Power Modules/High_power__DC_DC_board/power_board/High_power__DC_DC_board.kicad_pcb
+Created on 10/29/2019 10:52:40 AM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'High_power__DC_DC_board.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.40mm  0.016"  (712 holes)
+    T2  0.60mm  0.024"  (736 holes)
+    T3  1.80mm  0.071"  (28 holes)
+
+    Total plated holes count 1476
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T4  2.70mm  0.106"  (12 holes)
+    T5  3.00mm  0.118"  (7 holes)
+    T6  3.20mm  0.126"  (6 holes)
+
+    Total unplated holes count 25
